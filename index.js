@@ -1,8 +1,13 @@
+require('dotenv').config()
+
 // Imports the Google Cloud client library
 const PubSub = require('@google-cloud/pubsub');
 
 // Creates a client
-const pubsub = new PubSub();
+const pubsub = new PubSub({
+  projectId: process.env.PROJECT_ID,
+  keyFilename: process.env.PATH_TO_KEY,
+});
 
 const topicName = 'dyp-topic';
 const data = JSON.stringify({ foo: 'bar' });
