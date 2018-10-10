@@ -1,0 +1,8 @@
+{
+  "name": "pubsub-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:felpin/pubsub-learning.git",
+  "author": "Felipe de Alencar Pinheiro <felipe.pinheiro.90@hotmail.com>",
+  "license": "MIT"
+}
