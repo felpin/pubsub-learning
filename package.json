@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:felpin/pubsub-learning.git",
   "author": "Felipe de Alencar Pinheiro <felipe.pinheiro.90@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.20.1"
+  }
 }
